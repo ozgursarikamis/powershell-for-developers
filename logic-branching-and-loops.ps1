@@ -64,3 +64,9 @@ $array = 11,12,13,14,15
 for ($i = 0; $i -lt $array.Count; $i++) {
 	"Current array member is $($array[$i])"
 }
+
+Clear-Host
+
+foreach ($item in Get-ChildItem) {
+	"FILE: $item"
+}
