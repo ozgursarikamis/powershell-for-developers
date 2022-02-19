@@ -19,3 +19,7 @@ pwsh -command "get-command -verb Get"
 <#
 	This is block of a comment
 #>
+
+#region
+	# This is also region in code.
+#endregion
