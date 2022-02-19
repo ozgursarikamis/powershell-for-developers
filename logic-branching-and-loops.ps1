@@ -28,3 +28,13 @@ switch ($var) {
 	43 { "Forty Three" }
 	Default { "Default Value" }
 }
+
+
+"LOOPING"
+Clear-Host
+
+$v = 1
+while ($v -lt 10) {
+	"Current item is: $v"
+	$v += 1
+}
