@@ -15,6 +15,8 @@ $array.Rank
 "`tUsing Array Index"
 $array[0]
 
+"Interpolation and Array: $($array[0])"
+
 ""
 "`tAdding New Items to array..."
 $array += "Zana"
