@@ -57,3 +57,10 @@ do {
 	$v3++
 	"current v3 is $v3"
 } until ($v3 -eq 100)
+
+Clear-Host
+$array = 11,12,13,14,15
+
+for ($i = 0; $i -lt $array.Count; $i++) {
+	"Current array member is $($array[$i])"
+}
