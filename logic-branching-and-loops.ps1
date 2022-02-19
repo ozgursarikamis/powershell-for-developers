@@ -38,3 +38,15 @@ while ($v -lt 10) {
 	"Current item is: $v"
 	$v += 1
 }
+
+Clear-Host
+"Also supports do-while"
+
+$v2 = 10
+do {
+	"Current item is: $v2"
+	$v2 -= 1
+} while ($v2 -gt 0)
+
+Clear-Host
+
