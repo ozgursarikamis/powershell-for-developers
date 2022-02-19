@@ -26,3 +26,13 @@ $var = 33
 $var -gt 30
 $var -lt 30
 $var -eq 33
+
+
+# Get current folder: 
+$PWD
+
+# Get info about your current Powershell session:
+$PSVersionTable
+Write-Host "================"
+# Can address specific values:
+$PSVersionTable.PSVersion
