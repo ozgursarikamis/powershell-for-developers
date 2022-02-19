@@ -10,4 +10,6 @@
 
 # Get-ChildItem
 
-Write-Host 'Howdy World'
+# Write-Host 'Howdy World'
+
+pwsh -command "get-command -verb Get"
