@@ -1,20 +1,28 @@
 # devlare a variable
-$variableName = "Ozgur"
+# $variableName = "Ozgur"
 
-$variableName
+# $variableName
 
 # Variables are objects. Show the type:
-$variableName.GetType()
+# $variableName.GetType()
 
-$variableName.ToLower()
-$variableName.ToUpper()
+# $variableName.ToLower()
+# $variableName.ToUpper()
 
-$variableName.Length
+# $variableName.Length
 
-$members_list = $variableName | Get-Member
+# $members_list = $variableName | Get-Member
 
-$members_list
+# $members_list
 
-for ($i = 0; $i -lt $members_list.Count; $i++) {
-	$members_list[$i].Name
-}
+# for ($i = 0; $i -lt $members_list.Count; $i++) {
+# 	$members_list[$i].Name
+# }
+
+# Comparisons:
+
+$var = 33
+
+$var -gt 30
+$var -lt 30
+$var -eq 33
