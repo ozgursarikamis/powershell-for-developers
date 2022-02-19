@@ -50,3 +50,10 @@ do {
 
 Clear-Host
 
+"Do Until"
+
+$v3 = 0
+do {
+	$v3++
+	"current v3 is $v3"
+} until ($v3 -eq 100)
