@@ -20,6 +20,6 @@ pwsh -command "get-command -verb Get"
 	This is block of a comment
 #>
 
-#region
+#region Region title is optional
 	# This is also region in code.
 #endregion
