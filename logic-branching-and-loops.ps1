@@ -23,7 +23,7 @@ switch ($var) {
 
 switch ($var) {
 	41 { "Forty One" }
-	'42' { "Forty Two 1" }
+	'42' { "Forty Two 1"; break }
 	42 { "Forty Two 2" }
 	43 { "Forty Three" }
 	Default { "Default Value" }
