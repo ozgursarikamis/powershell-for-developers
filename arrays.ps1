@@ -21,3 +21,12 @@ $array += "Zana"
 $array += "Halime"
 
 $array
+
+""
+"`tDeclaring an Empty Array"
+$array = @()
+
+$array
+
+$array += "Item 1", 5
+$array
