@@ -13,3 +13,9 @@
 # Write-Host 'Howdy World'
 
 pwsh -command "get-command -verb Get"
+
+# This is a comment
+
+<#
+	This is block of a comment
+#>
