@@ -25,3 +25,22 @@ class Twitterer {
 $twit = [Twitterer]::new()
 $twit.TwitterHandle = 'ozgursarikamis'
 $twit.OpenTwitter() # call a method in class.
+
+Clear-Host
+
+class TwRedux {
+
+	[string] $Name = "Ozgur Sarikamis"
+	[string] $TwitterHandle
+
+	TwRedux() { }
+
+	TwRedux([string] $twitterHandle) {
+		$this.TwitterHandle = $twitterHandle
+	}
+
+	TwRedux([string] $Name, [string] $TwitterHandle) {
+		$this.Name = $Name
+		$this.TwitterHandle = $TwitterHandle
+	}
+}
