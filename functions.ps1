@@ -59,3 +59,23 @@ function Get-PSFiles() {
 Clear-Host
 $output = Get-ChildItem | Get-PSFiles
 $output
+$output.GetType()
+
+
+Clear-Host
+
+function Get-AName() {
+	param (
+		[Parameter(ValueFromPipelineByPropertyName)] $Name
+	)
+	begin {}
+
+	process {
+		"`tYou passed in $Name"
+	}
+
+	end {}
+}
+
+Get-ChildItem | Get-AName
+Get-Process | Get-AName
