@@ -1,5 +1,9 @@
 class Twitterer {
 
+	Twitterer() {
+		Write-Host "Default construtor called"
+	}
+
 	# create a property
 	[string] $TwitterHandle
 
