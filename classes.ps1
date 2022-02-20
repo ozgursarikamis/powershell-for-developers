@@ -19,3 +19,5 @@ class Twitterer {
 }
 
 $twit = [Twitterer]::new()
+$twit.TwitterHandle = 'ozgursarikamis'
+$twit.OpenTwitter() # call a method in class.
