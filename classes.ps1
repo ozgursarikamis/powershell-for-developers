@@ -22,9 +22,9 @@ class Twitterer {
 	}
 }
 
-$twit = [Twitterer]::new()
-$twit.TwitterHandle = 'ozgursarikamis'
-$twit.OpenTwitter() # call a method in class.
+# $twit = [Twitterer]::new()
+# $twit.TwitterHandle = 'ozgursarikamis'
+# $twit.OpenTwitter() # call a method in class.
 
 Clear-Host
 
@@ -32,6 +32,34 @@ class TwRedux {
 
 	[string] $Name = "Ozgur Sarikamis"
 	[string] $TwitterHandle
+
+	static [string] $version = '2020.10.31.001'
+	
+	# Function that returns a string
+	[string] TwitterURL()
+	{
+		# Call the function to build the twitterurl
+		# passing in the property we want
+		$url = $this.TwitterURL($this.TwitterHandle)
+
+		return $url
+	}
+
+	# Overloaded function that returns a string
+	[string] TwitterURL($twitterHandle) {
+		return "https://twitter.com/$($twitterHandle)"
+	}
+	
+	# Function that has no return value
+	[void] OpenTwitter()
+	{
+		Start-Process $this.TwitterURL()
+	}
+
+	# Can launch a twitter page without instantiating the class
+	static [void] OpenTwitterPage([string] $twitterHandle) {
+		Start-Process "http://twitter.com/$($TwitterHandle)"
+	}
 
 	TwRedux() { }
 
@@ -44,3 +72,10 @@ class TwRedux {
 		$this.TwitterHandle = $TwitterHandle
 	}
 }
+
+[TwRedux]::OpenTwitterPage('ozgursarikamis')
+# Static Value - Can be called without initializing the class
+[TwRedux]::Version
+
+# Use the static method
+[TwRedux]::OpenTwitterPage('N4IXT')
