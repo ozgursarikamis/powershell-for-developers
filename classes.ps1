@@ -17,3 +17,5 @@ class Twitterer {
 		Start-Process $this.TwitterUrl()
 	}
 }
+
+$twit = [Twitterer]::new()
