@@ -77,5 +77,26 @@ function Get-AName() {
 	end {}
 }
 
-Get-ChildItem | Get-AName
-Get-Process | Get-AName
+# Get-ChildItem | Get-AName
+# Get-Process | Get-AName
+
+function Show-BName {
+	param (
+		[Parameter(ValueFromPipelineByPropertyName)] $Name
+	)
+	
+	begin {
+		Write-Host "Here are the names!" -ForegroundColor Green
+	}
+	process {
+		Write-Host "`tYou passed in " -ForegroundColor White -NoNewline
+		Write-Host $Name -ForegroundColor Yellow
+	}
+	end { 
+		Write-Host "Those were the names you passed in" -ForegroundColor Green
+	}
+}
+
+Clear-Host
+Get-ChildItem | Show-BName
+# Get-Process | Show-BName
