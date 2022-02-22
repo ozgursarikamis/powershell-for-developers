@@ -1,4 +1,4 @@
-$myString = "this is a string of text. nothing too exciting"
+# $myString = "this is a string of text. nothing too exciting"
 
 # # Does nothing much. Since it's just a string
 # $myString | Format-Table
@@ -43,4 +43,6 @@ Clear-Host
 # Get-Date | ft
 
 # Get-Process | Select-Object ProcessName, Responding, Description | Format-List
-Get-Process | Sort-Object -Property ProcessName | Format-Table
+# Get-Process | Sort-Object -Property ProcessName | Format-Table
+
+Get-Process | Sort-Object -Property Name | Format-List -GroupBy Name
