@@ -38,6 +38,9 @@ Clear-Host
 # | Select-Object ComputerName, RemoteAddress, RemotePort, SourceAddress
 # | Format-List
 
-Get-Alias -Definition Format-Table
+# Get-Alias -Definition Format-Table
 
-Get-Date | ft
+# Get-Date | ft
+
+# Get-Process | Select-Object ProcessName, Responding, Description | Format-List
+Get-Process | Sort-Object -Property ProcessName | Format-Table
