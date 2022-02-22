@@ -9,4 +9,5 @@
 
 Clear-Host
 
-Get-Process s* | Out-File -FilePath './output/processes.txt'
+# Get-Process s* | Out-File -FilePath './output/processes.txt'
+Get-Process s* | Format-List | Out-File -FilePath "./output/process.txt"
