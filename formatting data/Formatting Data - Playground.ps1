@@ -45,4 +45,6 @@ Clear-Host
 # Get-Process | Select-Object ProcessName, Responding, Description | Format-List
 # Get-Process | Sort-Object -Property ProcessName | Format-Table
 
-Get-Process | Sort-Object -Property Name | Format-List -GroupBy Name
+# Get-Process | Sort-Object -Property Name | Format-List -GroupBy Name
+
+Get-Process ThumbnailExtens
