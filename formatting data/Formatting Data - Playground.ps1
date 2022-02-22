@@ -75,4 +75,5 @@ Clear-Host
 
 # Get-Content './output/processes.txt'
 
-Get-Process | Select-Object Name, Id | Format-List | Out-GridView # Won't work because Out-GridView requires unformatted data
+# Get-Process | Select-Object Name, Id | Format-List | Out-GridView # Won't work because Out-GridView requires unformatted data
+Get-Process | Select-Object Name, Id | Out-GridView
