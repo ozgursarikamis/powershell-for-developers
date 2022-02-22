@@ -20,5 +20,15 @@ Clear-Host
 
 # Get-Process s* | Out-File './output/process.txt' | Get-Member # You must specify an object for the Get-Member cmdlet.
 
-Get-Process > './output/process.txt' # redirectional operator
-Get-Process >> './output/process.txt' # redirectional operator (append)
+# Get-Process > './output/process.txt' # redirectional operator
+# Get-Process >> './output/process.txt' # redirectional operator (append)
+
+# Get-Process | Out-String | Get-Member
+
+Clear-Host
+
+$processes = Get-Process
+$processes.Count # count of the processes
+$processes[0] # the first object
+
+$processes | Select-Object -First 3
