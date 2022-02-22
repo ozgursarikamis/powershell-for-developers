@@ -18,4 +18,6 @@ Clear-Host
 # $processes = Get-Process s*
 # Out-File -InputObject $processes -FilePath "./output/process.txt"
 
-Get-Process s* | Out-File './output/process.txt' | Get-Member # You must specify an object for the Get-Member cmdlet.
+# Get-Process s* | Out-File './output/process.txt' | Get-Member # You must specify an object for the Get-Member cmdlet.
+
+Get-Process > './output/process.txt' # redirectional operator
