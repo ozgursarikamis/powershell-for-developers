@@ -47,6 +47,10 @@ Clear-Host
 
 # Get-Process | Sort-Object -Property Name | Format-List -GroupBy Name
 
-Get-Process ThumbnailExtens | Format-List Name, Id
-""
-Get-Process ThumbnailExtens | Format-Table * -Wrap
+# Get-Process ThumbnailExtens | Format-List Name, Id
+# ""
+# Get-Process ThumbnailExtens | Format-Table * -Wrap
+
+# Clear-Host
+
+Get-Process ThumbnailExtens | Format-List @{Name="Some Other Name"; Expression={"Some ON: $($_.Name)"}}, Id
