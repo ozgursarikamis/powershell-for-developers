@@ -59,8 +59,16 @@ Clear-Host
 
 # Format-List -InputObject $processes
 
-Clear-Host
-Get-Process | Format-Wide -AutoSize
+# Clear-Host
+# Get-Process | Format-Wide -AutoSize
 
-Clear-Host
-Get-Process | Format-Wide -Column 3
+# Clear-Host
+# Get-Process | Format-Wide -Column 3
+
+# Get-FormatData -TypeName System.Diagnostics.Process -PowerShellVersion 5.1
+
+
+# (Get-FormatData -TypeName System.Diagnostics.Process -PowerShellVersion 5.1).FormatViewDefinition
+
+
+Get-Process | Format-Table | Out-File './output/processes.txt'
