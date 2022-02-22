@@ -53,4 +53,8 @@ Clear-Host
 
 # Clear-Host
 
-Get-Process ThumbnailExtens | Format-List @{Name="Some Other Name"; Expression={"Some ON: $($_.Name)"}}, Id
+# Get-Process ThumbnailExtens | Format-List @{Name="Some Other Name"; Expression={"Some ON: $($_.Name)"}}, Id
+
+$processes = Get-Process
+
+Format-List -InputObject $processes
