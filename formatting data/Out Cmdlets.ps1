@@ -10,5 +10,7 @@
 Clear-Host
 
 # Get-Process s* | Out-File -FilePath './output/processes.txt'
-Get-Process s* | Format-Table | Out-File -FilePath "./output/process.txt"
-Get-Process s* | Format-List | Out-File -FilePath "./output/process.txt" -Append
+# Get-Process s* | Format-Table | Out-File -FilePath "./output/process.txt"
+# Get-Process s* | Format-List | Out-File -FilePath "./output/process.txt" -Append
+
+Get-Process s* | Format-List | Out-File -FilePath "./output/process.txt" -NoNewline
