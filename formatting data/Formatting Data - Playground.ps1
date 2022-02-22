@@ -47,4 +47,6 @@ Clear-Host
 
 # Get-Process | Sort-Object -Property Name | Format-List -GroupBy Name
 
-Get-Process ThumbnailExtens
+Get-Process ThumbnailExtens | Format-List Name, Id
+""
+Get-Process ThumbnailExtens | Format-Table * -Wrap
