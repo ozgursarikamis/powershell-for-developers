@@ -4,3 +4,9 @@
 # When using out cmdlets, your declaring that you're done with objects.
 
 ## Always put out cmdlets at the end of the pipeline.
+
+# help Out-File
+
+Clear-Host
+
+Get-Process s* | Out-File -FilePath './output/processes.txt'
