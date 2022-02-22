@@ -61,3 +61,6 @@ Clear-Host
 
 Clear-Host
 Get-Process | Format-Wide -AutoSize
+
+Clear-Host
+Get-Process | Format-Wide -Column 3
