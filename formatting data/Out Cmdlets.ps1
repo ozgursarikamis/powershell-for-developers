@@ -15,5 +15,7 @@ Clear-Host
 
 # Get-Process s* | Format-List | Out-File -FilePath "./output/process.txt" -Width 20 # First 20 characters on each line
 
-$processes = Get-Process s*
-Out-File -InputObject $processes -FilePath "./output/process.txt"
+# $processes = Get-Process s*
+# Out-File -InputObject $processes -FilePath "./output/process.txt"
+
+Get-Process s* | Out-File './output/process.txt' | Get-Member # You must specify an object for the Get-Member cmdlet.
