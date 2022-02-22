@@ -71,4 +71,6 @@ Clear-Host
 # (Get-FormatData -TypeName System.Diagnostics.Process -PowerShellVersion 5.1).FormatViewDefinition
 
 
-Get-Process | Format-Table | Out-File './output/processes.txt'
+# Get-Process | Format-Table | Out-File './output/processes.txt'
+
+Get-Content './output/processes.txt'
