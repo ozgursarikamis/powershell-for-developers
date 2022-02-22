@@ -13,4 +13,4 @@ Clear-Host
 # Get-Process s* | Format-Table | Out-File -FilePath "./output/process.txt"
 # Get-Process s* | Format-List | Out-File -FilePath "./output/process.txt" -Append
 
-Get-Process s* | Format-List | Out-File -FilePath "./output/process.txt" -NoNewline
+Get-Process s* | Format-List | Out-File -FilePath "./output/process.txt" -Width 20 # First 20 characters on each line

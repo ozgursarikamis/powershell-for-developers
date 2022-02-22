@@ -1,1 +1,190 @@
-[32;1mId      : [0m14451[32;1mHandles : [0m0[32;1mCPU     : [0m0.3516548[32;1mSI      : [0m1[32;1mName    : [0mSafariBookmarks[32;1mId      : [0m42866[32;1mHandles : [0m0[32;1mCPU     : [0m0.0704309[32;1mSI      : [0m1[32;1mName    : [0mSafariLaunchAge[32;1mId      : [0m41908[32;1mHandles : [0m0[32;1mCPU     : [0m0.0158965[32;1mSI      : [0m1[32;1mName    : [0mSafeEjectGPUAge[32;1mId      : [0m41909[32;1mHandles : [0m0[32;1mCPU     : [0m0.0377508[32;1mSI      : [0m1[32;1mName    : [0mSafeEjectGPUSer[32;1mId      : [0m2124[32;1mHandles : [0m0[32;1mCPU     : [0m0.2757239[32;1mSI      : [0m1[32;1mName    : [0mScopedBookmarkA[32;1mId      : [0m1639[32;1mHandles : [0m0[32;1mCPU     : [0m0.3357475[32;1mSI      : [0m1[32;1mName    : [0mScreenTimeAgent[32;1mId      : [0m2491[32;1mHandles : [0m0[32;1mCPU     : [0m0.1655356[32;1mSI      : [0m2491[32;1mName    : [0mScreenTimeWidge[32;1mId      : [0m1743[32;1mHandles : [0m0[32;1mCPU     : [0m3.06844[32;1mSI      : [0m1[32;1mName    : [0msearchpartyuser[32;1mId      : [0m1421[32;1mHandles : [0m0[32;1mCPU     : [0m7.4147088[32;1mSI      : [0m1[32;1mName    : [0msecd[32;1mId      : [0m1497[32;1mHandles : [0m0[32;1mCPU     : [0m54.9197931[32;1mSI      : [0m1[32;1mName    : [0msecinitd[32;1mId      : [0m2444[32;1mHandles : [0m0[32;1mCPU     : [0m0.6910102[32;1mSI      : [0m1[32;1mName    : [0msharedfilelistd[32;1mId      : [0m2435[32;1mHandles : [0m0[32;1mCPU     : [0m8.977697[32;1mSI      : [0m1[32;1mName    : [0msharingd[32;1mId      : [0m88034[32;1mHandles : [0m0[32;1mCPU     : [0m0.0465225[32;1mSI      : [0m1[32;1mName    : [0mSidecarRelay[32;1mId      : [0m1729[32;1mHandles : [0m0[32;1mCPU     : [0m0.9040505[32;1mSI      : [0m1[32;1mName    : [0msiriactionsd[32;1mId      : [0m1589[32;1mHandles : [0m0[32;1mCPU     : [0m1.0290225[32;1mSI      : [0m1[32;1mName    : [0msiriknowledged[32;1mId      : [0m42593[32;1mHandles : [0m0[32;1mCPU     : [0m1.9553414[32;1mSI      : [0m1[32;1mName    : [0mSnappy[32;1mId      : [0m2170[32;1mHandles : [0m0[32;1mCPU     : [0m0.9006854[32;1mSI      : [0m1[32;1mName    : [0mSoftwareUpdateN[32;1mId      : [0m21430[32;1mHandles : [0m0[32;1mCPU     : [0m0.0353002[32;1mSI      : [0m1[32;1mName    : [0mspindump_agent[32;1mId      : [0m41811[32;1mHandles : [0m0[32;1mCPU     : [0m18.0296442[32;1mSI      : [0m1[32;1mName    : [0mSpotlight[32;1mId      : [0m2468[32;1mHandles : [0m0[32;1mCPU     : [0m0.312376[32;1mSI      : [0m1[32;1mName    : [0mStatusKitAgent[32;1mId      : [0m2490[32;1mHandles : [0m0[32;1mCPU     : [0m0.1820339[32;1mSI      : [0m2490[32;1mName    : [0mStocksWidget[32;1mId      : [0m42753[32;1mHandles : [0m0[32;1mCPU     : [0m0.0991169[32;1mSI      : [0m1[32;1mName    : [0mstoredownloadd[32;1mId      : [0m41843[32;1mHandles : [0m0[32;1mCPU     : [0m2.1420068[32;1mSI      : [0m1[32;1mName    : [0mstudentd[32;1mId      : [0m1857[32;1mHandles : [0m0[32;1mCPU     : [0m19.5703134[32;1mSI      : [0m1[32;1mName    : [0msuggestd[32;1mId      : [0m1849[32;1mHandles : [0m0[32;1mCPU     : [0m8.6561223[32;1mSI      : [0m1[32;1mName    : [0mswcd[32;1mId      : [0m42600[32;1mHandles : [0m0[32;1mCPU     : [0m20.6483558[32;1mSI      : [0m1[32;1mName    : [0mSwitchResX Daem[32;1mId      : [0m1456[32;1mHandles : [0m0[32;1mCPU     : [0m0.5416737[32;1mSI      : [0m1[32;1mName    : [0msyncdefaultsd[32;1mId      : [0m41797[32;1mHandles : [0m0[32;1mCPU     : [0m0.876852[32;1mSI      : [0m1[32;1mName    : [0mSystemUIServer
+
+[32;1mId      : [0m14451
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.3516548
+[32;1mSI      : [0m1
+[32;1mName    : [0mSafariBook
+          [32;1m[0mmarks
+
+[32;1mId      : [0m42866
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.0704309
+[32;1mSI      : [0m1
+[32;1mName    : [0mSafariLaun
+          [32;1m[0mchAge
+
+[32;1mId      : [0m41908
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.0158965
+[32;1mSI      : [0m1
+[32;1mName    : [0mSafeEjectG
+          [32;1m[0mPUAge
+
+[32;1mId      : [0m41909
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.0377508
+[32;1mSI      : [0m1
+[32;1mName    : [0mSafeEjectG
+          [32;1m[0mPUSer
+
+[32;1mId      : [0m2124
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.2757239
+[32;1mSI      : [0m1
+[32;1mName    : [0mScopedBook
+          [32;1m[0mmarkA
+
+[32;1mId      : [0m1639
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.3357475
+[32;1mSI      : [0m1
+[32;1mName    : [0mScreenTime
+          [32;1m[0mAgent
+
+[32;1mId      : [0m2491
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.1655356
+[32;1mSI      : [0m2491
+[32;1mName    : [0mScreenTime
+          [32;1m[0mWidge
+
+[32;1mId      : [0m1743
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m3.0708178
+[32;1mSI      : [0m1
+[32;1mName    : [0msearchpart
+          [32;1m[0myuser
+
+[32;1mId      : [0m1421
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m7.4147088
+[32;1mSI      : [0m1
+[32;1mName    : [0msecd
+
+[32;1mId      : [0m1497
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m54.9197931
+[32;1mSI      : [0m1
+[32;1mName    : [0msecinitd
+
+[32;1mId      : [0m2444
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.6910102
+[32;1mSI      : [0m1
+[32;1mName    : [0msharedfile
+          [32;1m[0mlistd
+
+[32;1mId      : [0m2435
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m8.9841005
+[32;1mSI      : [0m1
+[32;1mName    : [0msharingd
+
+[32;1mId      : [0m88034
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.0465225
+[32;1mSI      : [0m1
+[32;1mName    : [0mSidecarRel
+          [32;1m[0may
+
+[32;1mId      : [0m1729
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.9040505
+[32;1mSI      : [0m1
+[32;1mName    : [0msiriaction
+          [32;1m[0msd
+
+[32;1mId      : [0m1589
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m1.0290225
+[32;1mSI      : [0m1
+[32;1mName    : [0msiriknowle
+          [32;1m[0mdged
+
+[32;1mId      : [0m42593
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m1.9560647
+[32;1mSI      : [0m1
+[32;1mName    : [0mSnappy
+
+[32;1mId      : [0m2170
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.9012122
+[32;1mSI      : [0m1
+[32;1mName    : [0mSoftwareUp
+          [32;1m[0mdateN
+
+[32;1mId      : [0m21430
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.0353002
+[32;1mSI      : [0m1
+[32;1mName    : [0mspindump_a
+          [32;1m[0mgent
+
+[32;1mId      : [0m41811
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m18.030725
+[32;1mSI      : [0m1
+[32;1mName    : [0mSpotlight
+
+[32;1mId      : [0m2468
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.312376
+[32;1mSI      : [0m1
+[32;1mName    : [0mStatusKitA
+          [32;1m[0mgent
+
+[32;1mId      : [0m2490
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.1820339
+[32;1mSI      : [0m2490
+[32;1mName    : [0mStocksWidg
+          [32;1m[0met
+
+[32;1mId      : [0m42753
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.0991169
+[32;1mSI      : [0m1
+[32;1mName    : [0mstoredownl
+          [32;1m[0moadd
+
+[32;1mId      : [0m41843
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m2.1424092
+[32;1mSI      : [0m1
+[32;1mName    : [0mstudentd
+
+[32;1mId      : [0m1857
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m19.5703134
+[32;1mSI      : [0m1
+[32;1mName    : [0msuggestd
+
+[32;1mId      : [0m1849
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m8.6562913
+[32;1mSI      : [0m1
+[32;1mName    : [0mswcd
+
+[32;1mId      : [0m42600
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m20.6609067
+[32;1mSI      : [0m1
+[32;1mName    : [0mSwitchResX
+          [32;1m[0m Daem
+
+[32;1mId      : [0m1456
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.5416737
+[32;1mSI      : [0m1
+[32;1mName    : [0msyncdefaul
+          [32;1m[0mtsd
+
+[32;1mId      : [0m41797
+[32;1mHandles : [0m0
+[32;1mCPU     : [0m0.8774972
+[32;1mSI      : [0m1
+[32;1mName    : [0mSystemUISe
+          [32;1m[0mrver
+
+
