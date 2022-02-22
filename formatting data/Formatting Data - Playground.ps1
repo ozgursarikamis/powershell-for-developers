@@ -31,9 +31,13 @@ Clear-Host
 
 # notepad.exe './Docs/export.xml'
 
-Test-NetConnection -ComputerName www.google.com -CommonTCPPort  HTTP | Format-List
-Test-NetConnection -ComputerName www.google.com -CommonTCPPort  HTTP | Format-Table
-""
-Test-NetConnection -ComputerName www.google.com -CommonTCPPort  HTTP 
-| Select-Object ComputerName, RemoteAddress, RemotePort, SourceAddress
-| Format-List
+# Test-NetConnection -ComputerName www.google.com -CommonTCPPort  HTTP | Format-List
+# Test-NetConnection -ComputerName www.google.com -CommonTCPPort  HTTP | Format-Table
+# ""
+# Test-NetConnection -ComputerName www.google.com -CommonTCPPort  HTTP 
+# | Select-Object ComputerName, RemoteAddress, RemotePort, SourceAddress
+# | Format-List
+
+Get-Alias -Definition Format-Table
+
+Get-Date | ft
