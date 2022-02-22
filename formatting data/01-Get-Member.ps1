@@ -25,8 +25,11 @@ Clear-Host
 # $formatData.FormatViewDefinition[0].Control
 # $formatData.FormatViewDefinition[0].Control.Headers | Format-Table
 
-New-Item "./Docs" -ItemType Directory
+# New-Item "./Docs" -ItemType Directory
 
-Get-FormatData -TypeName System.Diagnostics.Process -PowerShellVersion 5.1 | Export-FormatData -Path './Docs/export.xml' -IncludeScriptBlock
+# Get-FormatData -TypeName System.Diagnostics.Process -PowerShellVersion 5.1 | Export-FormatData -Path './Docs/export.xml' -IncludeScriptBlock
 
-notepad.exe './Docs/export.xml'
+# notepad.exe './Docs/export.xml'
+
+Test-NetConnection -ComputerName www.google.com -CommonTCPPort  HTTP | Format-List
+Test-NetConnection -ComputerName www.google.com -CommonTCPPort  HTTP | Format-Table
