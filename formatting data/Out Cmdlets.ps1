@@ -41,3 +41,7 @@ $myArray.Add("Thing3")
 $myArray.Add("Thing4") | Out-Null # Hides the output instead of sending it down the pipeline or displaying it.
 
 $myArray
+
+$myArray.Add('thing 2') > $null
+
+[void]$myArray # cast to void / null
