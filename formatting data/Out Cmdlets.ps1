@@ -33,15 +33,22 @@ Clear-Host
 
 # $processes | Select-Object -First 3
 
-$myArray = New-Object System.Collections.ArrayList
-$myArray.Add("Thing1")
-$myArray.Add("Thing2")
-$myArray.Add("Thing3")
+# $myArray = New-Object System.Collections.ArrayList
+# $myArray.Add("Thing1")
+# $myArray.Add("Thing2")
+# $myArray.Add("Thing3")
 
-$myArray.Add("Thing4") | Out-Null # Hides the output instead of sending it down the pipeline or displaying it.
+# $myArray.Add("Thing4") | Out-Null # Hides the output instead of sending it down the pipeline or displaying it.
 
-$myArray
+# $myArray
 
-$myArray.Add('thing 2') > $null
+# $myArray.Add('thing 2') > $null
 
-[void]$myArray # cast to void / null
+# [void]$myArray # cast to void / null
+
+Install-Module Microsoft.Powershell.ConsoleGuiTools -Force
+Get-Command -Module Microsoft.PowerShell.ConsoleGuiTools
+
+Install-Module Microsoft.Powershell.ConsoleGuiTools
+Get-Process | Out-ConsoleGridView -Filter Brave
+Get-Process | Out-ConsoleGridView -Filter "Brave" -Title "Brave Processes"
