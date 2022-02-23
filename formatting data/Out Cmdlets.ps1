@@ -27,8 +27,17 @@ Clear-Host
 
 Clear-Host
 
-$processes = Get-Process
-$processes.Count # count of the processes
-$processes[0] # the first object
+# $processes = Get-Process
+# $processes.Count # count of the processes
+# $processes[0] # the first object
 
-$processes | Select-Object -First 3
+# $processes | Select-Object -First 3
+
+$myArray = New-Object System.Collections.ArrayList
+$myArray.Add("Thing1")
+$myArray.Add("Thing2")
+$myArray.Add("Thing3")
+
+$myArray.Add("Thing4") | Out-Null # Hides the output instead of sending it down the pipeline or displaying it.
+
+$myArray
