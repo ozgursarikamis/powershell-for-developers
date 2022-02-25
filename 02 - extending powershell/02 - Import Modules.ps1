@@ -13,3 +13,9 @@ Import-Module haveibeenpawned
 Import-Module -Name 'D:\Courses\Powershell\powershell-pluralisght\02 - extending powershell\haveibeenpwned\'
 
 Get-Module
+
+Clear-Host
+
+Import-Module ScheduledTasks -Prefix PS
+
+Get-Module
