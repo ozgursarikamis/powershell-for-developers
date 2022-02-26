@@ -41,3 +41,9 @@ Find-Module -Tag "Slack" # Search by tag
 Find-Module -Name PSSlack -AllVersions
 Find-Module -Name PSSlack -MaximumVersion 1.0
 Find-Module -Name PSSlack -RequiredVersion 1.0.2
+
+ Clear-Host
+
+ Find-Command -ModuleName PSSlack
+
+ Find-Command -Name Get-VM
