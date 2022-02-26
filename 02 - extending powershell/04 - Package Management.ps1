@@ -1,11 +1,34 @@
-Get-Command -Module PackageManagement
+# Get-Command -Module PackageManagement
 
-Clear-Host
+# Clear-Host
 
-Get-PackageProvider | Format-Table
+# Get-PackageProvider | Format-Table
 
-Get-Command -Module PowerShellGet
+# Get-Command -Module PowerShellGet
 
-Clear-Host
+# Clear-Host
 
-Get-PSRepository | Format-Table
+# Get-PSRepository | Format-Table
+
+# New-Item -Path C:\LocalPSRepo -ItemType Directory
+#TODO: check if directory exists
+
+New-SmbShare -Name LocalPSRepo -Path C:\LocalPSRepo
+
+Register-PSRepository -Name LocalPSRepo -SourceLocation \\localhost\LocalPSRepo\ -ScriptSourceLocation \\localhost\LocalPSRepo\ -InstallationPolicy Trusted
+
+Get-PSRepository
+
+### Outpur
+
+# Name                      InstallationPolicy   SourceLocation
+# ----                      ------------------   --------------
+# LocalPSRepo               Trusted              \\localhost\LocalPSRepo\
+# PSGallery                 Untrusted            https://www.powershellgallery.com/api/v2
+
+Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+
+# Name                      InstallationPolicy   SourceLocation
+# ----                      ------------------   --------------
+# PSGallery                 Trusted              https://www.powershellgallery.com/api/v2
+# LocalPSRepo               Trusted              \\localhost\LocalPSRepo\
