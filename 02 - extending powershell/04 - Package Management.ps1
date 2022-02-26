@@ -48,4 +48,19 @@
 
 #  Find-Command -Name Get-VM
 
-Install-Module -Name PSSlack
+# Install-Module -Name PSSlack
+
+Get-Module PSSlack -ListAvailable | Format-List
+
+Get-Command -Module PSSlack
+
+Install-Module -Name posh-ssh -RequiredVersion 2.0
+
+Get-Module posh-ssh -ListAvailable
+
+Update-Module posh-ssh
+
+# Updating a module, does not remove the older version.
+
+(Get-InstalledModule).count
+(Get-Module).count
