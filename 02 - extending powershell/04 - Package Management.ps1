@@ -32,3 +32,12 @@ Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
 # ----                      ------------------   --------------
 # PSGallery                 Trusted              https://www.powershellgallery.com/api/v2
 # LocalPSRepo               Trusted              \\localhost\LocalPSRepo\
+
+Find-Module -Name "*Slack*" # Search by name
+Clear-Host
+
+Find-Module -Tag "Slack" # Search by tag
+
+Find-Module -Name PSSlack -AllVersions
+Find-Module -Name PSSlack -MaximumVersion 1.0
+Find-Module -Name PSSlack -RequiredVersion 1.0.2
