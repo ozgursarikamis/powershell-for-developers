@@ -19,11 +19,16 @@ Param(
 $data = Get-EventLog -logname $Log -EntryType Error -Newest $Newest -ComputerName $ComputerName Group-Object -Property Source -NoElement
 
 # Create an HTML report
-$footer = "<h5>Report Run $(Get-Date))</h5>"
+$footer = "<h5>Report Run $(Get-Date)</h5>"
 $css = "http://sample.css"
-$precontent = "<h1>$ComputerName</h1>/h2>Last $newest error sources from $Log</h2>"
+$precontent = "<h1>$ComputerName</h1><h2>Last $newest error sources from $Log</h2>"
 
 $data | Sort-Object -Property Count, Name -Descending |
 	Select-Object Count, Name |
-	ConvertTo-Html -Title $ReportTitle -PreContent $precontent -PostContent $footer -CssUri = $css
-	Out-File $path
+	ConvertTo-Html -Title $ReportTitle -PreContent $precontent -PostContent $footer -CssUri = $css |
+	Out-File -FilePath $path
+
+		# help '.\Parameterize Scripting.ps1'
+		# Output is:
+
+			# Parameterize Scripting.ps1 [[-Log] <string>] [[-ComputerName] <string>] [[-Newest] <int>] [[-ReportTitle] <string>] [-path] <string> [<CommonParameters>]
