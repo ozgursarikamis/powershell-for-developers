@@ -15,3 +15,15 @@ Param(
 	[string]$ReportTitle = "Event Log Report",
 	[Parameter(Mandatory, HelpMessage = "Enter the path of HTML file.")][string]$path
 )
+
+$data = Get-EventLog -logname $Log -EntryType Error -Newest $Newest -ComputerName $ComputerName Group-Object -Property Source -NoElement
+
+# Create an HTML report
+$footer = "<h5>Report Run $(Get-Date))</h5>"
+$css = "http://sample.css"
+$precontent = "<h1>$ComputerName</h1>/h2>Last $newest error sources from $Log</h2>"
+
+$data | Sort-Object -Property Count, Name -Descending |
+	Select-Object Count, Name |
+	ConvertTo-Html -Title $ReportTitle -PreContent $precontent -PostContent $footer -CssUri = $css
+	Out-File $path
