@@ -29,3 +29,9 @@ catch [System.Net.WebException], [System.IO.IOException] {
 catch {
 	"An error occurred that could not be resolved."
 }
+
+try { NonsenseString }
+catch {
+  Write-Host "An error occurred:"
+  Write-Host $_.ScriptStackTrace
+}
