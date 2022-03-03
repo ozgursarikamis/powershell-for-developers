@@ -13,3 +13,16 @@
 }
 
 $h | Format-Table
+
+# Splatting:
+
+$params = @{
+	ComputerName = 'Server 01'
+	Classname = 'win32_logicaldisk'
+	Filter = "deviceid='C:'"
+	Verbose = $true
+}
+
+$params
+
+Get-CimInstance @params
