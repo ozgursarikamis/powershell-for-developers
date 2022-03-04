@@ -10,3 +10,5 @@ Get-Process -Name notepad &
 Invoke-Command -ComputerName OFFICE -ScriptBlock { Get-Process -Name notepad } -JobName "Notepad" -AsJob # RemoteJob
 
 Get-Process -Name notepad & # BackgroundJob
+
+Get-Job -IncludeChildJob
